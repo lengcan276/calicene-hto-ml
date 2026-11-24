@@ -1,0 +1,2 @@
+# Preserve published supplementary files byte-for-byte, including source hashes.
+data/Supplementary_Dataset_S2/** -text

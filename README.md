@@ -17,6 +17,16 @@ The auxiliary archive-derived analysis scripts use the `CALICENE_HTO_ROOT` envir
 
 ## Layout
 
+`data/Supplementary_Dataset_S2/` provides the conformer-level donor-twist and signed-gap data accompanying SI Section S8 and Table S8C (24 November 2026 update). See the [dataset README](data/Supplementary_Dataset_S2/README.md) for the data dictionary, frozen-source hashes and reproduction procedure. It includes all 159 intended-species inclusion records, the 137 measurable conformers, and the 134 conformers retained for within-parent analysis. This addition does not change the model-training code or its inputs.
+
+To reproduce the S8 correlation, permutation test and 19/24 parent-direction count using only NumPy and pandas:
+
+```bash
+python data/Supplementary_Dataset_S2/reproduce_S8.py
+```
+
+The dataset includes an unchanged historical source script for provenance, which retains its original local project path. Use `reproduce_S8.py` for portable reproduction; it requires no access to that path or quantum-chemistry software.
+
 `src/calicene_hto/core/` contains the final model, label definitions, Round-2 comparison, diagnostics, SHAP and excitation-state runners.
 
 `src/calicene_hto/analysis/` contains the provenance-controlled dataset, Boltzmann, orbital-character, donor-twist and within-parent analysis scripts.

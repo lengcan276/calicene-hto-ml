@@ -1,0 +1,12 @@
+{
+  "source_root_label": "FROZEN_CAJ_REVISION_20260919",
+  "source_sha256": {
+    "04_data_tables/canonical_v2/donor_twist_direct.csv": "955a2fa9210ffcb9e389c2f79bf3181578ec5e0a34369a95a303d48f19eeac9e",
+    "04_data_tables/canonical_v2/excited_states_v2.csv": "009afc377d927f5426cd9d8cfe0e7825b9702d74f21d55acd1df34e2ce3a7362",
+    "04_data_tables/model_v2/dataset_v2.csv": "43c968734924acf7eba53a70fee4619db4064253f22972322920c9b85161ac69",
+    "02_scripts/phase2_scripts/donor_twist_direct.py": "aab1418f0291e9815fa165a245eaf7a5e3f1808a7ad0c80497da9667cb312f43",
+    "03_reports/donor_twist_direct_summary.json": "56509ca9a3818bce13b748755ed712cd6f6e9fb31c6f8a79bb7def3ac577a62e"
+  },
+  "csv_row_convention": "1-based physical row; header is row 1",
+  "created": "2026-11-24"
+}

@@ -1,0 +1,30 @@
+{
+  "intended": 159,
+  "measured": 137,
+  "within_parent_conformers": 134,
+  "within_parent_parents": 32,
+  "pearson_r": 0.35594994805708263,
+  "permutations": 5000,
+  "random_seed": 20260910,
+  "exceedances": 0,
+  "two_sided_p": 0.0001999600079984003,
+  "parent_direction_count": 24,
+  "positive_direction": 19,
+  "opposite_direction": 5,
+  "singletons": [
+    {
+      "parent_identifier": "5ring_nh2_in",
+      "conformer_identifier": "conf_1"
+    },
+    {
+      "parent_identifier": "5ring_nh2_3ring_cn_out",
+      "conformer_identifier": "conf_1"
+    },
+    {
+      "parent_identifier": "5ring_nh2_3ring_cn_in",
+      "conformer_identifier": "conf_1"
+    }
+  ],
+  "numpy_version": "2.3.5",
+  "pandas_version": "3.0.1"
+}
